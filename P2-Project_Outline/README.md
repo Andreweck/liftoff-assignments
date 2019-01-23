@@ -1,28 +1,31 @@
 ### Overview
 
-  Not all campsites are created equal. For example, the private site with river access and a view versus the crowded site next to the dump station. Which is why my family has kept a folder full of campground maps with notes scribbled in the margins since before I was born. However, over that amount of time some maps have become illegible or simply lost. Which is why it is time for a digital solution, Best Campsite!
-  Users will be able to login, search campgrounds, and mark campsites according to their tastes. Everyone has different judgement criteria for campsites. Which is why when marking sites users can write a brief description to remind themselves why they marked it in the first place. Then when a user is ready to plan their next trip they can go their user page to review their marked sites.
   
+ The purpose of this app is a social media page centered around musical ideas. Each user can create a piece of music through a tablature or an audio file, and publish, message, or store it privately on the app. Users will be able to message each other feedback on each other’s pieces, or even, add to the piece if they are given permission by the author.
+
 ### Features
 
-User Login: Users can create accounts, login, and a user page to review marked sites.
-Campground Search: Users can search with a map interface and select campgrounds.
-Mark Site: Users can view a list of all campsites and rate them as they see fit.
+* User accounts: These will be used to store the tablature files and associate it with the author when it is shared publicly. A user will, of course, need to log into an account in order to use this app. 
+* Tablature paper: In this app, a user will be able to create tablature, which can be used for their own personal use, sent to another user, or share to their profile.
+* Messaging: Users will be able to send each other messages through this application. They can also message each other their pieces of work
+* Audio recording: A user will be able to record and upload it, or they can upload an audio file that they have on their computer. 
+
 
 ### Technologies
 
-*Java
-*Spring Boot
-*MySQL
-*Thymeleaf
-*JavaScript
-*RIDB API
-*Google Map API
+* C#
+* .net
+* Javascript
+* Entity Framework
+
 
 ### What I'll Have to Learn
 
-  Perhaps the most daunting and important thing I'll be learning will be getting data from an API and manipulating it. The data from Recreation Information Database will be JSON files, which I haven't work with before. I'll be using Google maps to display the campgrounds and that will require some JavaScript, which I'm unfamiliar with.
-  
+  * How to store a javascript string into an html form. I will need to use this to store a “key” string for each of the notes used in the tab.
+* I will need to reliably learn how to use Entity framework.
+* I will need to learn how to create a drag and drop function to use to create the tablature. 
+* How to record and play an audio file through the app and how to mix audio files through the app.
+
 ### Project Tracker
 
-https://www.pivotaltracker.com/n/projects/2185109
+﻿https://github.com/Andreweck/TabPaper
